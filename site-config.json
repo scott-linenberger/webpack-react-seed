@@ -1,0 +1,30 @@
+{
+  "page": {
+    "title": "p-title"
+  },
+  "analytics": {
+    "google": {
+      "trackingId": "ga-tracking-id"
+    }
+  },
+  "metaData": {
+    "twitterCard": {
+      "description": "t-description",
+      "domain": "t-domain",
+      "handle": "t-handle",
+      "image": "t-image",
+      "title": "t-title"
+    },
+    "openGraph": {
+      "description": "o-description",
+      "title": "o-title",
+      "image": "o-image",
+      "url": "o-image"
+    },
+    "schema": {
+      "name": "s-name",
+      "description": "s-description",
+      "image": "s-image"
+    }
+  }
+}

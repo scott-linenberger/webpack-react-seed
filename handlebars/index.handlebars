@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {{!-- add meta data tags --}}
+  {{#with htmlWebpackPlugin.options.data.metaData}}
+    {{>MetaTags}}
+  {{/with}}
+
+  {{!-- add CSS resets --}}
+  {{>CssReset}}
+
+  <title>{{page.title}}</title>
+
+  {{#ifProduction}}
+    {{>GoogleAnalytics}}
+  {{/ifProduction}}
+</head>
+
+<body>
+  <div id="root"></div>
+</body>
+</html>
