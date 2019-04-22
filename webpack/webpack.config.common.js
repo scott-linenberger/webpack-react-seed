@@ -5,6 +5,7 @@ const webpackSettings = require('./webpack.config.settings');
 /* rules */
 const ruleJavascript = require('./rules/rule.javascript');
 const ruleHandlebars = require('./rules/rule.handlebars');
+const ruleScss = require('./rules/rule.scss');
 
 /* plugins */
 const pluginHandlebars = require('./plugins/plugin.handlebars');
@@ -30,6 +31,7 @@ const common = {
     rules: [
       ruleJavascript,
       ruleHandlebars,
+      ruleScss,
     ],
   },
   plugins: [
