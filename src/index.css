@@ -1,0 +1,9 @@
+@value color1 from 'style/colors.css';
+
+.entry-point {
+  width: 200px;
+  height: 100px;
+  margin: 2em auto;
+  border: 1px solid color1;
+  padding: 1em;
+}
