@@ -35,6 +35,7 @@ const paths = {
 
 const filenames = {
   nameBundle: '[hash].js',
+  nameTestBundle: 'test.js',
 };
 
 const serverDevelopment = {
